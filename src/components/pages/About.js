@@ -5,10 +5,8 @@ function About() {
     return (
         <div>
             <div>
-                <figure class="profile">
-                    
-                        <img className="my-pic" src={ProfPic} alt="Martin Apopot's Profile Picture"/>
-                    
+                <figure class="profile" >
+                    <img className="my-pic" src={ProfPic} alt="Martin Apopot's Profile Picture"/>
                 </figure>
             </div>
             <p>
