@@ -1,11 +1,18 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import React, { useState } from "react";
+import Header from "../src/components/Header";
+import About from "../src/components/About";
+import Portfolio from "../src/components/Portfolio";
+import Contact from "../src/components/Contact";
+import Resume from "../src/components/Resume";
+import Footer from "../src/components/Footer";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -16,8 +23,14 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
       </header>
+      <main>
+
+      </main>
+      <footer>
+
+      </footer>
     </div>
   );
 }
