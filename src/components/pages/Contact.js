@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 
 // Here we import a helper function that will check if the email is valid
-import { checkPassword, validateEmail } from '../../utils/helpers';
+import { validateEmail } from '../../utils/helpers';
 
 function Contact() {
   // Create state variables for the fields in the form
   // We are also setting their initial values to an empty string
   const [email, setEmail] = useState('');
   const [userName, setUserName] = useState('');
-  const [password, setPassword] = useState('');
+  const [message, setMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
 
   const handleInputChange = (e) => {
@@ -23,7 +23,7 @@ function Contact() {
     } else if (inputType === 'userName') {
       setUserName(inputValue);
     } else {
-      setPassword(inputValue);
+      setMessage(inputValue);
     }
   };
 
@@ -38,17 +38,17 @@ function Contact() {
       return;
       // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
     }
-    if (!checkPassword(password)) {
+    if (!message) {
       setErrorMessage(
-        `Choose a more secure password for the account: ${userName}`
+        `A message is required!`
       );
       return;
     }
-    alert(`Hello ${userName}`);
+    alert(`Successfully Submitted!`);
 
     // If everything goes according to plan, we want to clear out the input after a successful registration.
     setUserName('');
-    setPassword('');
+    setMessage('');
     setEmail('');
   };
 
@@ -68,14 +68,14 @@ function Contact() {
           name="userName"
           onChange={handleInputChange}
           type="text"
-          placeholder="username"
+          placeholder="name"
         />
         <input
-          value={password}
-          name="password"
+          value={message}
+          name="message"
           onChange={handleInputChange}
-          type="password"
-          placeholder="Password"
+          type="text"
+          placeholder="message"
         />
         <button type="button" onClick={handleFormSubmit}>Submit</button>
       </form>
