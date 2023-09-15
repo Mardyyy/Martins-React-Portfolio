@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8b457183.css",
+    "main.js": "/static/js/main.6f8048bb.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Recipe-app.png": "/static/media/Recipe-app.225c4cfc22fb65def493.png",
+    "static/media/Profile pic.jpg": "/static/media/Profile pic.fefae60ccb76afd175e5.jpg",
+    "static/media/Horiseon.PNG": "/static/media/Horiseon.eb50f5facf0e9442e7bc.PNG",
+    "static/media/Survey-maker-app.jpg": "/static/media/Survey-maker-app.e88694d7ba6e58dbc9e5.jpg",
+    "index.html": "/index.html",
+    "main.8b457183.css.map": "/static/css/main.8b457183.css.map",
+    "main.6f8048bb.js.map": "/static/js/main.6f8048bb.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b457183.css",
+    "static/js/main.6f8048bb.js"
+  ]
+}
