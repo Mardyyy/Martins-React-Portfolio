@@ -13,6 +13,8 @@ Being a web developer means being part of a community. You’ll need a place to 
      
 <a href="https://mardyyy.github.io/Martins-React-Portfolio/"> Link to deployed application</a>
 
+![Alt text](./src/components/pages/assets/images/Screenshot.PNG)
+
 ## Questions
 
 For any additional questions, reach me at <a href="martinapopot@gmail.com">My email</a> or <a href="https://github.com/mardyyy">My github</a>.
