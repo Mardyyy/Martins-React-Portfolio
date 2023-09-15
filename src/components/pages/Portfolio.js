@@ -1,6 +1,11 @@
 import React from 'react';
 import Project from './Project';
 import ImageOne from './assets/images/Horiseon.PNG';
+import ImageTwo from './assets/images/Recipe-app.png';
+import ImageThree from './assets/images/Survey-maker-app.jpg';
+// import ImageFour from './assets/images/';
+// import ImageFive from './assets/images/';
+// import ImageSix from './assets/images/';
 
 const projects = [
     {
@@ -12,35 +17,35 @@ const projects = [
     },
     {
       id: 2,
-      title: "Title",
-      image: "",
-      repo: "",
-      live: ""
+      title: "Ingredient Recipe Maker",
+      image: ("" + ImageTwo +""),
+      repo: "https://github.com/joshua-rowan/ingredient-recipe-fetcher",
+      live: "https://joshua-rowan.github.io/ingredient-recipe-fetcher/"
     },
     {
       id: 3,
-      title: "Milk",
-      image: "",
+      title: "Survey-Management-Service",
+      image: ("" + ImageThree +""),
       repo: "",
-      live: ""
+      live: "https://github.com/JacobDFlores/Survey-Management-Service"
     },
     {
       id: 4,
-      title: "Milk",
+      title: "N/A",
       image: "",
       repo: "",
       live: ""
     },
     {
       id: 5,
-      title: "Milk",
+      title: "N/A",
       image: "",
       repo: "",
       live: ""
     },
     {
       id: 6,
-      title: "Milk",
+      title: "N/A",
       image: "",
       repo: "",
       live: ""
