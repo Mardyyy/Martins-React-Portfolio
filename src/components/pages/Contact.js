@@ -44,7 +44,7 @@ function Contact() {
       );
       return;
     }
-    alert(`Successfully Submitted! Test Commit`);
+    alert(`Successfully Submitted!`);
 
     // If everything goes according to plan, we want to clear out the input after a successful registration.
     setUserName('');
