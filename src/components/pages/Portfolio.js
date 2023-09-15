@@ -26,7 +26,7 @@ const projects = [
       id: 3,
       title: "Survey-Management-Service",
       image: ("" + ImageThree +""),
-      repo: "",
+      repo: "https://github.com/JacobDFlores/Survey-Management-Service",
       live: "https://github.com/JacobDFlores/Survey-Management-Service"
     },
     {
