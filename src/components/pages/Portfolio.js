@@ -3,7 +3,7 @@ import Project from './Project';
 import ImageOne from './assets/images/Horiseon.PNG';
 import ImageTwo from './assets/images/Recipe-app.png';
 import ImageThree from './assets/images/Survey-maker-app.jpg';
-// import ImageFour from './assets/images/';
+import ImageFour from './assets/images/Music-Verse.png';
 // import ImageFive from './assets/images/';
 // import ImageSix from './assets/images/';
 
@@ -31,10 +31,10 @@ const projects = [
     },
     {
       id: 4,
-      title: "N/A",
-      image: "",
-      repo: "",
-      live: ""
+      title: "Music Verse",
+      image: ("" + ImageFour +""),
+      repo: "https://github.com/pzhong1/Music-Verse",
+      live: "https://music-verse2-57f59708a605.herokuapp.com/"
     },
     {
       id: 5,
